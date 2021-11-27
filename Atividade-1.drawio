@@ -1,29 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2021-11-27T19:49:54.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="38qh-OAgThVLcUORTUXF" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-27T22:20:20.225Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="i2IABSAzcgidgdn-DHUR" version="15.8.6" type="github">
   <diagram id="AMbJrYQroYjOnYmesZMy" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ntxmmqhkYzdvFGRqi93g-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ntxmmqhkYzdvFGRqi93g-2" target="ntxmmqhkYzdvFGRqi93g-3">
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ntxmmqhkYzdvFGRqi93g-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ntxmmqhkYzdvFGRqi93g-2" value="Início&lt;br&gt;Sistema" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ntxmmqhkYzdvFGRqi93g-3" target="ntxmmqhkYzdvFGRqi93g-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ntxmmqhkYzdvFGRqi93g-3" value="Informe a data do evento" style="shape=display;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="135" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ntxmmqhkYzdvFGRqi93g-5" target="ntxmmqhkYzdvFGRqi93g-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ntxmmqhkYzdvFGRqi93g-2" value="Início&lt;br&gt;Cadastro Evento" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="40" width="80" height="80" as="geometry" />
+        <mxCell id="ntxmmqhkYzdvFGRqi93g-5" value="Data do evento" style="shape=manualInput;whiteSpace=wrap;html=1;size=20;" parent="1" vertex="1">
+          <mxGeometry x="330" y="127.5" width="120" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="ntxmmqhkYzdvFGRqi93g-3" value="Informe a data do evento" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="160" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ntxmmqhkYzdvFGRqi93g-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ntxmmqhkYzdvFGRqi93g-5" target="ntxmmqhkYzdvFGRqi93g-6">
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-9" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ntxmmqhkYzdvFGRqi93g-6" target="UVnA94jCJhpCL6pDzq3i-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ntxmmqhkYzdvFGRqi93g-5" value="Data do evento" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="230" width="80" height="70" as="geometry" />
+        <mxCell id="ntxmmqhkYzdvFGRqi93g-6" value="A data do evento é maior que a data de hoje?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="90" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="ntxmmqhkYzdvFGRqi93g-6" value="A data do evento é posterior à data de hoje?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="225" width="80" height="80" as="geometry" />
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-7" value="Fim&lt;br&gt;Sistema" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="120" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ntxmmqhkYzdvFGRqi93g-8" value="" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="240" width="80" height="40" as="geometry" />
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=66.25;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UVnA94jCJhpCL6pDzq3i-8" target="ntxmmqhkYzdvFGRqi93g-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="776" y="60" />
+              <mxPoint x="390" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-8" value="A data do evento é inválida. Insira uma data no futuro:" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="130" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-12" value="Listar participantes e palestrantes" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
