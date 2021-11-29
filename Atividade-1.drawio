@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T22:03:14.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="DdSaB4sO6WJ7lu74IyIu" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T22:07:31.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="rpl8jyBeRQq16dIACMh4" version="15.8.6" type="github">
   <diagram id="AMbJrYQroYjOnYmesZMy" name="Page-1">
     <mxGraphModel dx="2031" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,8 +49,17 @@
         <mxCell id="UVnA94jCJhpCL6pDzq3i-8" value="A data do evento é inválida. Insira uma data no futuro:" style="shape=display;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1110" y="390" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UVnA94jCJhpCL6pDzq3i-12" value="Listar participantes e palestrantes" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="1109" width="130" height="60" as="geometry" />
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UVnA94jCJhpCL6pDzq3i-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1250" y="1360" />
+              <mxPoint x="1250" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-12" value="Listar participantes e palestrantes" style="shape=display;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="528" y="1330" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UVnA94jCJhpCL6pDzq3i-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=127.5;exitDy=140;exitPerimeter=0;entryX=0.475;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UVnA94jCJhpCL6pDzq3i-14" target="UVnA94jCJhpCL6pDzq3i-16">
           <mxGeometry relative="1" as="geometry" />
@@ -183,7 +192,7 @@
         <mxCell id="UVnA94jCJhpCL6pDzq3i-61" value="Resultado maior que 18?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="900" y="712.5" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="UVnA94jCJhpCL6pDzq3i-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=32.5;entryDy=50;entryPerimeter=0;" edge="1" parent="1" source="UVnA94jCJhpCL6pDzq3i-63" target="UVnA94jCJhpCL6pDzq3i-38">
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.454;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UVnA94jCJhpCL6pDzq3i-63" target="UVnA94jCJhpCL6pDzq3i-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UVnA94jCJhpCL6pDzq3i-63" value="Cadastro não permitido pela idade." style="shape=display;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -255,22 +264,24 @@
         <mxCell id="UVnA94jCJhpCL6pDzq3i-91" value="Número de participantes desse evento menor que 100?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1820" y="972.5" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UVnA94jCJhpCL6pDzq3i-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=68.75;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=68.75;entryDy=50;entryPerimeter=0;" edge="1" parent="1" source="UVnA94jCJhpCL6pDzq3i-93" target="UVnA94jCJhpCL6pDzq3i-38">
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=68.75;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UVnA94jCJhpCL6pDzq3i-93">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="680" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1864" y="840" />
-              <mxPoint x="1349" y="840" />
+              <mxPoint x="1360" y="840" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="UVnA94jCJhpCL6pDzq3i-93" value="Limite de vagas excedido. Cadastro não realizado." style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1795" y="880" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UVnA94jCJhpCL6pDzq3i-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=68.75;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=68.75;entryDy=50;entryPerimeter=0;" edge="1" parent="1" source="UVnA94jCJhpCL6pDzq3i-96" target="UVnA94jCJhpCL6pDzq3i-38">
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=68.75;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=105;entryDy=50;entryPerimeter=0;" edge="1" parent="1" source="UVnA94jCJhpCL6pDzq3i-96" target="UVnA94jCJhpCL6pDzq3i-38">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2024" y="810" />
-              <mxPoint x="1349" y="810" />
+              <mxPoint x="1380" y="810" />
+              <mxPoint x="1380" y="678" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -295,7 +306,12 @@
         <mxCell id="UVnA94jCJhpCL6pDzq3i-102" value="Nome do evento" style="shape=manualInput;whiteSpace=wrap;html=1;size=20;" vertex="1" parent="1">
           <mxGeometry x="533" y="1080" width="120" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="UVnA94jCJhpCL6pDzq3i-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=68.75;entryDy=50;entryPerimeter=0;" edge="1" parent="1" source="UVnA94jCJhpCL6pDzq3i-105" target="UVnA94jCJhpCL6pDzq3i-106">
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-108" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=68.75;entryDy=50;entryPerimeter=0;" edge="1" parent="1" source="UVnA94jCJhpCL6pDzq3i-105" target="UVnA94jCJhpCL6pDzq3i-106">
+          <mxGeometry x="-0.6863" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UVnA94jCJhpCL6pDzq3i-110" value="Sim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UVnA94jCJhpCL6pDzq3i-105" target="UVnA94jCJhpCL6pDzq3i-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UVnA94jCJhpCL6pDzq3i-105" value="Nome do evento existe?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
